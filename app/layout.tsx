@@ -4,11 +4,18 @@ import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+const iconPath = isGitHubPages ? "/maptracks.io/favicon.svg" : "/favicon.svg";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    isGitHubPages
+      ? "https://shred444.github.io/maptracks.io/"
+      : "https://maptracks-connected-artwork.shred444.chatgpt.site/",
+  ),
   title: "MapTracks — Connected Mountain Artwork",
   description: "Custom connected wall artwork built around the ski mountain you love, activated by QR and synced with Strava after delivery.",
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: iconPath, shortcut: iconPath },
   openGraph: {
     title: "MapTracks — Your mountain. Your lines. Alive on the wall.",
     description: "Commission connected wall artwork built around your ski mountain.",
