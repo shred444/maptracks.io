@@ -90,12 +90,15 @@ export default function Home() {
         <div className="hero-visual">
           <span className="measure measure-top">W / CUSTOM</span>
           <span className="measure measure-side">H / CUSTOM</span>
-          <div className="art-frame"><MountainArtwork /></div>
-          <div className="telemetry-card" aria-label="Example connected artwork status">
-            <div><span>LAST ACTIVITY</span><b>ALPINE SKI</b></div>
-            <div><span>VERTICAL</span><b>6,280 FT</b></div>
-            <div><span>SYNC STATUS</span><b className="online">● CONNECTED</b></div>
-          </div>
+          <figure className="hero-photo-frame">
+            <img
+              src="./maptracks-dining-room.png"
+              alt="A warm, neatly organized dining room with connected ski mountain artwork framed on the wall"
+              width="1536"
+              height="1024"
+            />
+            <figcaption>Connected artwork — shown in place</figcaption>
+          </figure>
         </div>
       </section>
 

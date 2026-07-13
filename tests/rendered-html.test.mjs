@@ -25,6 +25,8 @@ test("server-renders the MapTracks marketing page", async () => {
   assert.match(html, /Jackson Hole/);
   assert.match(html, /Stowe/);
   assert.match(html, /From \$499/);
+  assert.match(html, /src=["']\.\/maptracks-dining-room\.png["']/);
+  assert.match(html, /connected ski mountain artwork framed on the wall/i);
   assert.match(html, /scan the unique QR code/i);
   assert.match(html, /connect your Strava account/i);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
