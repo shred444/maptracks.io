@@ -79,7 +79,7 @@ export default function Home() {
           <p className="hero-deck">A commissioned portrait of the mountain you return to—built as a connected wall piece that turns every Strava day into a new line of light.</p>
           <div className="hero-actions">
             <a className="button" href="#commission">Start a commission <span aria-hidden="true">↗</span></a>
-            <span className="price-note"><b>From $149</b><small>Designed to order</small></span>
+            <span className="price-note"><b>From $499</b><small>Designed to order</small></span>
           </div>
           <dl className="hero-specs">
             <div><dt>INPUT</dt><dd>Your mountain</dd></div>
@@ -158,7 +158,7 @@ export default function Home() {
           <p className="section-index">04 — START A COMMISSION</p>
           <h2 id="commission-title">Tell us which mountain<br />belongs on your wall.</h2>
           <p>Share the essentials. We’ll follow up personally to discuss dimensions, materials, timing, and a final quote.</p>
-          <div className="price-block"><span>COMMISSIONS FROM</span><b>$149</b><small>Final price varies by size, materials, and customization.</small></div>
+          <div className="price-block"><span>COMMISSIONS FROM</span><b>$499</b><small>Final price varies by size, materials, and customization.</small></div>
         </div>
         <form className="commission-form" onSubmit={submitCommission} noValidate>
           <div className="field-row">
@@ -189,7 +189,7 @@ export default function Home() {
         <div className="faq-list">
           <details><summary>Is the artwork ready-made?</summary><p>No. Each piece is commissioned around a chosen ski mountain, frame direction, and intended space.</p></details>
           <details><summary>How does the Strava connection work?</summary><p>After the finished artwork is delivered and mounted, its owner scans the unique QR code to begin a separate activation and Strava connection flow.</p></details>
-          <details><summary>What does the $149 price include?</summary><p>$149 is the starting point. The final quote depends on the selected dimensions, materials, frame, and level of customization.</p></details>
+          <details><summary>What does the $499 price include?</summary><p>$499 is the starting point. The final quote depends on the selected dimensions, materials, frame, and level of customization.</p></details>
           <details><summary>Can I request any ski mountain?</summary><p>Yes. Tell us the mountain in the inquiry form and we’ll confirm the available mapping and production options.</p></details>
         </div>
       </section>
