@@ -61,8 +61,10 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="MapTracks home">
-          <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
-          MAPTRACKS
+          <span className="brand-symbol" aria-hidden="true">
+            <img src="./maptracks-logo-black-coral.png" alt="" />
+          </span>
+          <span className="brand-word"><b>Map</b><em>Tracks</em></span>
         </a>
         <nav aria-label="Main navigation">
           <a href="#work">Work</a>
@@ -92,8 +94,8 @@ export default function Home() {
           <span className="measure measure-side">H / CUSTOM</span>
           <figure className="hero-photo-frame">
             <img
-              src="./maptracks-dining-room.png"
-              alt="A warm, neatly organized dining room with connected ski mountain artwork framed on the wall"
+              src="./maptracks-dining-room-small-canvas.png"
+              alt="A warm, neatly organized dining room with a compact connected ski mountain artwork framed on the wall"
               width="1536"
               height="1024"
             />
@@ -198,7 +200,10 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>MAPTRACKS</a>
+        <a className="brand footer-brand" href="#top" aria-label="MapTracks home">
+          <span className="brand-symbol" aria-hidden="true"><img src="./maptracks-logo-black-coral.png" alt="" /></span>
+          <span className="brand-word"><b>Map</b><em>Tracks</em></span>
+        </a>
         <p>Connected mountain artwork.<br />Made one line at a time.</p>
         <div><a href="#work">Work</a><a href="#how">Process</a><a href="#commission">Commission</a></div>
         <small>© 2026 MapTracks. Independent concept site.</small>
